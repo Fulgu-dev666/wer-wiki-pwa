@@ -1,0 +1,149 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b1220;
+  color: #e6e8ee;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: 4px 0 0 0;
+  color: #a8b0c2;
+  font-size: 14px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.tab {
+  border: 1px solid #2a3550;
+  background: #101a2f;
+  color: #e6e8ee;
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-color: #4b69ff;
+  background: #14214a;
+}
+
+.toolbar {
+  margin: 12px 0 16px 0;
+}
+
+.search {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid #2a3550;
+  background: #0f1830;
+  color: #e6e8ee;
+  outline: none;
+}
+
+.search::placeholder {
+  color: #7f8aa3;
+}
+
+.main {
+  display: grid;
+  gap: 16px;
+}
+
+.card {
+  background: #0f1830;
+  border: 1px solid #22304d;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.cardTitle {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #cfd6ea;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.listItem {
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid #22304d;
+  background: #0b1326;
+}
+
+.listTop {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #2a3550;
+  background: #101a2f;
+  color: #a8b0c2;
+  font-size: 12px;
+}
+
+.itemTitle {
+  font-weight: 650;
+}
+
+.articleBody {
+  margin: 10px 0 0 0;
+  white-space: pre-wrap;
+  font-family: inherit;
+  color: #cfd6ea;
+  line-height: 1.35;
+}
+
+.muted {
+  color: #a8b0c2;
+}
+
+.footer {
+  margin-top: 16px;
+  font-size: 12px;
+}
