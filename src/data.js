@@ -1,7 +1,7 @@
 export const EVENTS = [
     {
       date: "2026-03-07",
-      title: "Spiel vs. SV Musterstadt (Heim)",
+      title: "SPIEL GEÄNDERT vs. SV Musterstadt (Heim)",
       location: "Platz 1"
     },
     {
