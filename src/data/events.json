@@ -1,0 +1,66 @@
+{
+  "oneOff": [
+    {
+      "date": "2026-03-07",
+      "i18n": {
+        "de": { "title": "Spiel vs. SV Musterstadt (Heim)", "location": "Platz 1" },
+        "en": { "title": "Match vs. SV Musterstadt (Home)", "location": "Pitch 1" },
+        "ru": { "title": "Матч против SV Musterstadt (дома)", "location": "Поле 1" }
+      }
+    }
+  ],
+  "recurring": [
+    {
+      "articleId": "event",
+      "weekday": 1,
+      "from": "2026-01-01",
+      "to": "2026-12-31",
+      "intervalDays": 14,      
+      "i18n": {
+        "de": { "title": "Held-Rarität", "location": "Normale Events" },
+        "en": { "title": "Endurance training", "location": "Training ground" },
+        "ru": { "title": "Тренировка на выносливость", "location": "Тренировочное поле" }
+      }
+    },
+    {
+      "weekday": 5,
+      "from": "2026-01-01",
+      "to": "2026-12-31",
+      "intervalDays": 14,
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "i18n": {
+        "de": { "title": "Intensivtraining", "location": "Trainingsplatz" },
+        "en": { "title": "Intensive training", "location": "Training ground" },
+        "ru": { "title": "Интенсивная тренировка", "location": "Тренировочное поле" }
+      }
+    },
+    {
+      "weekday": 5,
+      "from": "2026-01-01",
+      "to": "2026-12-31",
+      "intervalDays": 14,
+      "startTime": "20:30",
+      "endTime": "21:15",
+      "i18n": {
+        "de": { "title": "Taktikgespräch", "location": "Vereinsheim" },
+        "en": { "title": "Tactics talk", "location": "Clubhouse" },
+        "ru": { "title": "Тактический разбор", "location": "Клубный дом" }
+      }
+    },
+    {
+      "weekday": 5,
+      "from": "2026-01-01",
+      "to": "2026-12-31",
+      "intervalDays": 7,
+      "startTime": "19:15",
+      "endTime": "20:00",
+      "i18n": {
+        "de": { "title": "Extra Techniktraining", "location": "Platz 2" },
+        "en": { "title": "Extra technique training", "location": "Pitch 2" },
+        "ru": { "title": "Доп. техника", "location": "Поле 2" }
+      }
+    }
+  ]
+}
+

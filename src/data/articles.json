@@ -1,0 +1,9 @@
+[
+  {
+    "articleId": "event",
+    "group": { "de": "Allgemeine Infos", "en": "General info", "ru": "Общее" },
+    "category": { "de": "Events", "en": "Events", "ru": "События" },
+    "title": { "de": "Trainingsgrundlagen", "en": "Training basics", "ru": "..." },
+    "content": { "de": "...", "en": "...", "ru": "..." }
+  }
+]
